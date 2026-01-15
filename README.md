@@ -96,3 +96,48 @@ npx shadow-cljs watch app
 
 ## 04 Creating Components
 
+Os componentes não existem apenas para fins de visualização.
+Eles também são responsáveis por lidar com interações do usuário, como cliques, digitação e outros eventos.
+
+Dentro de cada componente, é comum definir listeners (event handlers), que ficam “ouvindo” essas interações e executam a lógica necessária quando elas ocorrem. Essa é uma prática amplamente adotada no desenvolvimento de interfaces modernas.
+
+Em muitos frameworks tradicionais, existe uma *separação explícita* entre:
+- **View** (camada de apresentação)
+- **Controller** (camada de lógica e controle)
+No *React* e, por consequência, no *Reagent*, essa separação não é feita da mesma forma.
+
+No React/Reagent:
+- A lógica da *view*
+- E a lógica do *controle/interação*
+ficam juntas dentro do mesmo componente.
+Essa abordagem traz algumas vantagens importantes:
+Facilita o desenvolvimento, pois o comportamento do componente fica concentrado em um único lugar
+Torna os componentes mais *autossuficientes*
+Aumenta a *reutilização*, já que o componente carrega tanto sua apresentação quanto seu comportamento
+
+O estado final do componente "app" será:
+```clojure
+(defn app
+  []
+  [header]
+  [gigs]
+  [orders]
+  [footer])
+```
+
+**TODO**
+- [x] Criar o diretório dos componentes.
+- [x] Criar o arquivo "header.cljs".
+- [x] Definir a função "header".
+- [x] Criar o arquivo "gigs.cljs".
+- [x] Definir a função "gigs".
+- [x] Criar o arquivo "orders.cljs".
+- [x] Definir a função "orders".
+- [x] Criar o arquivo "footer.cljs".
+- [x] Definir a função "footer".
+- [x] Importar as arquivos criados no "core.cljs".
+- [x] Em "header.cljs" importar o logo.
+- [x] Em "footer.cljs" importar o ícone.
+
+## 05 Displaying Gigs
+
