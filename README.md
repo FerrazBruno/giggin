@@ -107,13 +107,11 @@ Em muitos frameworks tradicionais, existe uma *separação explícita* entre:
 No *React* e, por consequência, no *Reagent*, essa separação não é feita da mesma forma.
 
 No React/Reagent:
-- A lógica da *view*
-- E a lógica do *controle/interação*
-ficam juntas dentro do mesmo componente.
+- A lógica da *view* e a lógica do *controle/interação* ficam juntas dentro do mesmo componente.
 Essa abordagem traz algumas vantagens importantes:
-Facilita o desenvolvimento, pois o comportamento do componente fica concentrado em um único lugar
-Torna os componentes mais *autossuficientes*
-Aumenta a *reutilização*, já que o componente carrega tanto sua apresentação quanto seu comportamento
+- Facilita o desenvolvimento, pois o comportamento do componente fica concentrado em um único lugar.
+- Torna os componentes mais *autossuficientes*.
+Aumenta a *reutilização*, já que o componente carrega tanto sua apresentação quanto seu comportamento.
 
 O estado final do componente "app" será:
 ```clojure
@@ -140,4 +138,17 @@ O estado final do componente "app" será:
 - [x] Em "footer.cljs" importar o ícone.
 
 ## 05 Displaying Gigs
+
+O componente gigs irá mostrar todos os itens para o usuário.
+
+**TODO**
+- [x] Alterar o hiccup do componente gigs para main.
+- [x] Criar uma *:div* com a classe *gigs*.
+- [x] Importar *giggin.state*.
+- [x] Aplicar uma função *map* no nosso estado.
+- [x] Montar o componente visual.
+- [x] Popular os componentes com os valores do estado.
+- [x] Adicionar uma chave para cada elemento do componente.
+
+## 06 List Comprehension
 
