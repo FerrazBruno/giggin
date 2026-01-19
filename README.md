@@ -152,3 +152,15 @@ O componente gigs irá mostrar todos os itens para o usuário.
 
 ## 06 List Comprehension
 
+Refatorando o componente *gigs* para melhorar legibilidade.
+
+## 07 Add To Order
+
+Quando clicar no botão `+`, precisamos adicionar os pedidos ao componente `orders`.
+
+Precisamos criar um átomo do *reagent* para adicionar os pedidios nesse átomo.
+
+No `:on-click` eu preciso retornar uma função pro *React* guardar e executar quando a ação acontecer.
+
+## 08 For Over Orders
+
