@@ -164,3 +164,16 @@ No `:on-click` eu preciso retornar uma função pro *React* guardar e executar q
 
 ## 08 For Over Orders
 
+Listas as ordens dentro do componente.
+Utilizar *aside* para definir um conteúdo tangencial ao conteúdo principal.
+
+**TODO**
+- [x] Trocar a *div* de orders por um *aside*.
+- [x] Importar *state* para dentro do arquivo de *orders*.
+- [x] Iterar sobre todas as ordens dentro de *state*.
+- [x] Adicionar a *div* de imagem.
+- [x] Adicionar a *div* do conteúdo de ordens.
+- [x] Adicionar a *div* de *action*.
+
+## 09 Remove From Order
+
