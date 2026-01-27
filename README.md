@@ -177,3 +177,10 @@ Utilizar *aside* para definir um conteúdo tangencial ao conteúdo principal.
 
 ## 09 Remove From Order
 
+Para remover os pedidos da lista de pedidos, é preciso adicionar *listeners*.
+Atualizar o estado sempre que o usuário interagir com o botão.
+
+- [x] Adicionar um botão a cada pedido.
+- [x] Adicionar um *listener* ao botão.
+- [x] Adicionar conteúdo ao botão (ícone).
+
