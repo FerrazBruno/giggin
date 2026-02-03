@@ -184,3 +184,15 @@ Atualizar o estado sempre que o usuário interagir com o botão.
 - [x] Adicionar um *listener* ao botão.
 - [x] Adicionar conteúdo ao botão (ícone).
 
+## 10 Order Total
+
+Exibir o total do preço dos pedidos realizados. Quando o usuário adicionar
+os pedidos ao componente de pedidos, mostrar a soma total dos pedidos abaixo.
+
+- [x] Adicionar mais uma *div* ao componente **orders**, com a classe *total*.
+- [x] Adicionar um outro botão para remover todos os pedidos.
+- [x] Adicionar um *listener* ao botão para remover os pedidos.
+- [x] Definir a função que ira fazer a somatória dos pedidos.
+
+## 11 Format Price
+
