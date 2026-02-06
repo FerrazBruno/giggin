@@ -196,3 +196,11 @@ os pedidos ao componente de pedidos, mostrar a soma total dos pedidos abaixo.
 
 ## 11 Format Price
 
+Alterar o formato em que o preço é exibido na seção de pedidos.
+
+- [x] Verificar se existem pedidos feitos.
+- [x] Alterar a exibição caso não tenha nenhum pedido.
+- [x] Criar uma função para formatar o preço.
+
+## 11 Refactoring Functions
+
