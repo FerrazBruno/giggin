@@ -204,3 +204,5 @@ Alterar o formato em que o preço é exibido na seção de pedidos.
 
 ## 11 Refactoring Functions
 
+- [x] Refatorar funções anônimas.
+
